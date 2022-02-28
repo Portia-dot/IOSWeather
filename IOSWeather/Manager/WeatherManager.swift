@@ -28,6 +28,7 @@ struct ResponseBody: Decodable {
     var main: MainResponse
     var name: String
     var wind: WindResponse
+    let conditionId :Int
 
     struct CoordinatesResponse: Decodable {
         var lon: Double
